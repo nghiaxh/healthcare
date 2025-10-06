@@ -19,6 +19,10 @@ const patientSchema = mongoose.Schema({
         type: Boolean,
         required: true,
     },
+    birthday: {
+        type: Date,
+        required: true
+    },
     blood: {
         type: String,
         required: true,
